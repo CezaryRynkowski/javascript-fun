@@ -11,7 +11,7 @@ var gameCycle = function() {
   render();
   var overlay = document.getElementsByClassName("overlay")[0];
   var results = document.getElementById("game-results");
-  overlay.style.top = "-100000";
+  overlay.style.top = "-100000px";
 
   function Player(color) {
     this.color = color,
